@@ -7,7 +7,7 @@ while (true) {
     let foundPos = text.indexOf('html', pos);
     if (foundPos == -1) break;
 
-    console.log(` Знайдено тут: ${foundPos} `);
+    //console.log(` Знайдено тут: ${foundPos} `);
     count++;
     pos = foundPos + 1; // продолжаем со следующей позиции
 }
